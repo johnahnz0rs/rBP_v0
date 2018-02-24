@@ -1,0 +1,27 @@
+* {
+	background-color: lightblue;
+	color: white;
+	font-family: trebuchet, helvetica, 'sans serif'
+}
+body{
+	background-color: lightblue;
+	color: white;
+}
+.wrapper {
+	width: 970px;
+	margin: 10px auto;
+}
+.quote {
+	width: 450px;
+	height: 150px;
+	overflow: scroll;
+	margin: 20px auto;
+	background-color: white;
+	color: black;
+}
+	.quote p {
+		background-color: white;
+		color: black;
+		padding: 10px;
+	}
+	
