@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='description' content=''>
+	<link rel='stylesheet' href='{{ url_for("static", filename="index.css") }}'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src='{{ url_for("static", filename="index.js") }}'></script>
+	<title>rBP Home</title>
+</head>
+
+<body>
+	<div class='wrapper'>
+		<h1>Sup d00d. I'm here to make sure you walk the walk, mahfq.</h1>
+		<div class='quote-div'>
+			<p class='quote'>{{ session['random_quote'] }}</p>
+		</div> <!-- end .quote-div == bordered box that displays a quote -->
+		<div class='add-quote-div'>
+			<button class='add-quote-accordion'>Add a new quote to rotation</button>
+			<div class='add-quote-panel'>
+				<form method='post' action='/add_quote'>
+					New quote you'd like to add to the rotation: <input type='text' name='new_quote'>
+					<input type='submit' value='Add this quote'>
+				</form>
+			</div> <!-- end .add-quote-form -->
+
+			<!-- <button class='add-quote'><a href='/add_quote' class='add-quote'>Add new quote</a></p> -->
+		</div> <!-- end .add-quote-div -->
+
+		
+	</div> <!-- end wrapper -->
+</body>
+
+</html>
+
+<!-- https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+<!-- https://www.w3schools.com/howto/howto_js_accordion.asp -->
+

@@ -1,29 +1,4 @@
-# in this branch, i want to implement:
-	# 1. quote of the day on the splash page
-		# 1a. qotd displayed in div .quote
-			# (future release) - add scrollbar so i can read more quotes, as desired?? will this functionality be useful in increasing motivation or be a distraction to getting started?
-		# 1b. add the ability to add fav quotes - @app.route('/add_quote')
-		
-	# 2. collapsible list of daily desires/habits
-		# 2a. the list should be of each habit i want to build, e.g.
-			 # - Bullet Journal/To-Do lists
-			 	# - what's on today's docket?
-			 	# - what did i accomplish today + reflection
-			 	# - make tomorrow's to-do list
-			# - Study:
-			 	# - khanacademy (10 min)
-			 	# - duolingo (5-10 min)
-			 	# - codingdojo and/or some language docs (30-240 min)
-			 # - First you get the money:
-			 	# - upwork
-			 	# - craigslist
-			 	# - preferred companies
-			 	# - etc
-			 # - Calories:
-			 	# - food tracker
-			 		# (future release) - import food tracker from app
-			 	# - pick tomorrow's meals
-			 		# (future release) - pick 2-3 days out, 1 week out
+
 
 
 from flask import Flask, redirect, render_template, session, url_for, request
@@ -51,13 +26,29 @@ def index():
 
 	# set the qotd
 	session['random_quote'] = session['quotes_list'][session['random_num']]
+	print session['quotes_list']
 
 	return render_template('index.html')
 
 
-@app.route('/add_quote')
+@app.route('/add_quote', methods=['post'])
 def add_quote():
-	return render_template('add_quote.html')
+	# add new quote
+	# session['quotes_list'].append('some string')
+	new_quote = ''
+	for char in request.form[
+	'new_quote']:
+		if char == '\'':
+			new_quote += str('\'')
+		elif char == '\"':
+			new_quote += str('\"')
+		else:
+			new_quote += str(char)
+	session['quotes_list'].append(str(new_quote))
+	print session['quotes_list']
+	# print session['quotes_list']['quotes_count']
+
+	return redirect('/')
 
 
 app.secret_key = '00'

@@ -11,17 +11,31 @@ body{
 	width: 970px;
 	margin: 10px auto;
 }
-.quote {
+
+.quote-div { /* this formats the div that contains the qotd */
 	width: 450px;
-	height: 150px;
-	overflow: scroll;
+	height: 100px;
+	overflow: auto;
 	margin: 20px auto;
 	background-color: white;
 	color: black;
 }
-	.quote p {
+
+	.quote { /* this formats the actual quote <p> itself */
 		background-color: white;
 		color: black;
 		padding: 10px;
 	}
-	
+
+	.add-quote-div {
+		margin: auto;
+		color: lightgreen;
+	}
+	.add-quote-accordion {
+		/* */
+	}
+	.add-quote-panel {
+		padding: 0px 10px;
+		display: none;
+		overflow: hidden;
+	}
