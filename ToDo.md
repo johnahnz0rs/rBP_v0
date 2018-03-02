@@ -1,10 +1,25 @@
 # in the **INDEX** branch, i want to implement:
 
+- [ ] __Health__ section > __Diet__ subsection
+	- [ ] __Foods I Like__
+		- [ ] keep a database of recipes that i like
+		- [ ] rating system? so rBP knows my preferences
+	- [ ] __Repertoire__
+		- [ ]depending on what i've been eating, i want rBP to tell me what to cook and eat next. e.g. if ive been eating alot of chicken, i want rBP to tell me to switch it up before i get tired of chicken.
+	- [ ] __Healthy Alternatives to Cravings__
+		- [ ] if i'm craving an unhealthy food, rBP should analyze the macros that i'm craving and recommend an alternative. e.g. if i'm craving ice cream, it tells me to eat nuts instead or an avocado or sherbet.
+
+
+
+
+
+- [ ] Quotes section
+	## i want the quotes to be thoughts that can change my mental pattern. i.e. we
 - [ ] quote of the day on the splash page:
 - [x] qotd displayed in div .quote 
 	* (future release) - add scrollbar so i can read more quotes, as desired?? will this functionality be useful in increasing motivation or be a distraction to getting started?
 - [ ] add <a> next quote </a>
-	- [x]1b. add the ability to add a new quote - @app.route('/add_quote')
+- [x] add the ability to add a new quote - @app.route('/add_quote')
 
 
 - [ ] collapsible list of daily desires/habits

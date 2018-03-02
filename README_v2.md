@@ -1,14 +1,149 @@
 # robotButlerPal
 
-# High level: output desired, input required[, processes]
+
+## questions
+[ ] can i write apps for alexa, google, cortana, etc?
 
 
-## desired output:
+## general thoughts
+* rBP should be a __thought trainer__ in that it puts the thoughts that are most likely to guide me towards my desired life into my head.
+* rBP should be an extension of the user: __like a good assistant, it helps you__:
+	* remember what you've learned/done in the past, 
+	* remember what/who you'd like to become in the future, and 
+	* guide your actions/decisions in the now.
+* rBP should __consistently speak with the user__, creating the illusion that it is the second voice in your head.
+* rBP is ultimately meant to be an actual, physical, traveling companion -- your own personal sidekick.
+
+
+
+## desired output
+
+
+### >>> DAILY PLANNING
+* one of my biggest recurring regrets is that i wasted my day. i often think "if i had only made a to-do list, i could have gotten more done today instead of just watching tv or otherwise dicking around"
+	[ ] force the user to make a to-do list for tomorrow before going to sleep
+	[ ] force the user to reflect on his accomplishments/failures each day
+
+### >>> SELF-REFLECTION
+#### gain an accurate view of himself
+
+* see yourself clearly:
+* rBP should be able to show the user definitively, without judgment, and without causing offense, that you are indeed an ___ :
+
+	* are you:
+		* bitchy
+		* an asshole
+		* a punk ass, pussy ass bitch? 
+		* a hypocrite?
+		* narcissistic? (dsm 4)
+			* grandiose sense of self-importance
+			* preoccupied with fantasies of unlimited success, power, brilliance, etc.
+			* believes they are special or unique
+			* requires excessive admiration
+			* sense of entitlement
+			* interpersonally exploitative
+			* lacks empathy
+			* envy (either direction)
+			* arrogant, haughty behaviors or attitudes
+			[ ] add dsm 5 NPD
+		* too hard on yourself
+		* too easy on yourself
+		* hate your job
+		* hate your partner/spouse?
+		* hate your friends?
+
+
+
+#### data visualization
+* in video games, you're able to see your character's *__attributes__* and *__progress__*
+	* what is important for a user to see about himself?
+		[ ] health
+		[ ] attractiveness
+		[ ] how he treats people
+		[ ] his habits
+		[ ] his thoughts, what he thinks about all day
+		[ ] whether his image of himself is accurate: does he over- or under-estimate himself?
+		[ ] his past accomplishments
+	* HABITS
+	* HOW USER SPENDS TIME
+	* HEALTH
+		[ ] weight
+		[ ] bmi
+		[ ] hip-to-waist ratio
+		[ ] muscle composition
+		[ ] strength
+		[ ] blood pressure
+		[ ] basal metabolic rate
+		[ ] fasting glucose
+	* WEALTH
+		[ ] total assets
+		[ ] total liabilities
+		[ ] budgets and spending
+	* LOVE
+		[ ] friends
+		[ ] family
+		[ ] partner(s)/spouse(s)
+		[ ] sex
+	* HAPPINESS
+ 
+
+
+
+### >>> STAND ON THE SHOULDERS OF GIANTS
+* we have available to us, at high speed, at little to no cost, the wisdom of so many great minds. fucking use it.
+
+[ ] go through *__HTWFAIP__* and copy over some of his lessons.
+[ ] go through the *__67 steps__* and copy over some of his lessons.
+[ ] go through *__youtube videos__* and copy over motivations
+[ ] favorite book *__quotes__*
+[ ] favorite *__speeches & monologues__*
+
+
+
+
+### >>> REMEMBER TO REMEMBER
+* I often find that i backslide on progress that i've made because i simply lose sight of the importance of the lessons i've learned, and start to ignore them.
+	* e.g. i learn time and time again that if i do yoga 3-7 times a week, my body starts to feel less pain (in my shoulders, lower back, legs, etc), but then i stop doing yoga after a few days. wtf mate?
+
+* what are some of the input methods for storing lessons learned?
+	[ ] written journal entries
+	[ ] video journals
+	[ ] user-submitted quotes from role models
+	[ ] results from past experiments
 
 
 
 
 
+### >>> rBP's "VOICE"
+
+#### Dale Carnegie-esque
+* no matter what the user's communication style, rBP should *__always be supportive in a way that best benefits the user__*.
+	* e.g. i personally have a hard time taking advice of my well-intentioned parents because i often perceive them to be judgmental. i have an easier time taking advice from someone who is more detached than my parents -- someone who is offering suggestions based on their experiences/successes/failures, as opposed to my parents' orders based on their irrational fears.
+
+#### complement the user
+* who is the user? how does he speak? rBP should talk to the user in a vernacular, tone of voice, cadence, etc, that complements the user and makes him feel comfortable. rBP will eventually become the user's best friend.
+
+* rBP should talk to the user the way the user wants:
+	[ ] user's communication style
+		[ ] what is the user's vernacular?
+			[ ] is he a california hippie?
+			[ ] is he a gruff, east coast man's man?
+			[ ] is he the quiet, brooding type?
+		[ ] what kind of personality does the user want rBP to have?
+	[ ] what does the user need from rBP?
+		[ ] does the user need someone he can delegate to, e.g. a personal assistant?
+		[ ] does the user need a manager that keeps an eye on the big picture while the user creates?
+		[ ] does the user need a teacher/hand-holder?
+
+
+
+
+
+
+
+
+<!-- 
 * Chatbot - a huge aspect of rBP is that it talks to you; it is essentially a chatbot that encourages you to improve yourself.
 	* rBP should be a social chameleon and a very good reader/watcher. ie in a few chat sessions, via experimentation based on user-self-identification and mini-tests, rBP should be able to figure out: 
 			* __your communication style and vernacular__ (are you a bro or a preppie or a stoner or a jock or a bad bitch or a sista or christian/muslim/upstanding citizen or a bad apple or trailer trash, and so on.) - how does the user talk to his friends? so that rBP can talk to the user in the same way.
@@ -86,5 +221,5 @@
 	* __Happiness__:
 		* __celebrate your weirdness__ aka uniqueness. what do you like to do? be proud of it. find others who do that, too, and connect. nerd out, my friend.
 		* 
-
+ -->
 
