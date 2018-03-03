@@ -14,17 +14,18 @@ body{
 
 .quote-div { /* this formats the div that contains the qotd */
 	width: 450px;
-	height: 100px;
+	height: 120px;
 	overflow: auto;
 	margin: 20px auto;
-	background-color: white;
+	background-color: lightblue;
 	color: black;
 }
 
 	.quote { /* this formats the actual quote <p> itself */
-		background-color: white;
+		/*background-color: white;*/
 		color: black;
 		padding: 10px;
+		text-align: center;
 	}
 
 	.add-quote-div {
@@ -37,5 +38,25 @@ body{
 	.add-quote-panel {
 		padding: 0px 10px;
 		display: none;
-		overflow: hidden;
+		overflow: auto;
 	}
+
+.schedule-activities-div {
+	width: 700px;
+	height: 50px;
+	margin: auto;
+}
+	.schedule-activities-div a {
+		color: green;
+	}
+	.schedule-activities-div p {
+		text-align: center;
+	}
+
+
+.scheduled-div {
+	width: 800px;
+	height: 200px;
+	margin: 30px auto;
+	overflow: auto;
+}

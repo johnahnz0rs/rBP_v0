@@ -1,10 +1,6 @@
 # robotButlerPal
 
 
-## questions
-[ ] can i write apps for alexa, google, cortana, etc?
-
-
 ## general thoughts
 * rBP should be a __thought trainer__ in that it puts the thoughts that are most likely to guide me towards my desired life into my head.
 * rBP should be an extension of the user: __like a good assistant, it helps you__:
@@ -13,6 +9,14 @@
 	* guide your actions/decisions in the now.
 * rBP should __consistently speak with the user__, creating the illusion that it is the second voice in your head.
 * rBP is ultimately meant to be an actual, physical, traveling companion -- your own personal sidekick.
+
+
+## questions
+[ ] can i write apps for alexa, google, cortana, etc?
+[ ] https://www.clearerthinking.org/
+[ ] how do i send myself emails? can a program send me auto emails?
+[ ] how do i send myself auto texts?
+[ ] guided_track
 
 
 

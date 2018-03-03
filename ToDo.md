@@ -1,6 +1,79 @@
-# in the **INDEX** branch, i want to implement:
+# To-Do
 
-- [ ] __Health__ section > __Diet__ subsection
+## Research:
+
+### [ ] https://www.clearerthinking.org/ 
+* (added 3/1/18)
+* Nathan thinks this might be a competitor because they also try to help the user make better decisions (see also: whatDo)
+
+### [x] www.guidedtrack.com 
+* (added 3/1/18)
+* 3/2/18: 
+	* I spent an hour trying to build a 'schedule ur workouts for the upcoming week' app using this website
+		* you can see what i got done here: https://www.guidedtrack.com/programs/6833/edit	
+	* THOUGHTS: 
+		* while GT might be useful for someone who doesn't want to learn to code, i _am_ learning how to code
+		* it felt like i had to learn a whole new language to write that app using GT -- and it's not even a real language; it's like a pseudo-language just for that one particular website.
+		* so instead of being helpful, its propriety pseudo-language felt more like an unnecessary barrier than an aid.
+		* also, because GT had to nerf the coding ability, i wasn't able to (or at least, i couldn't figure out from their docs in one hour) how to get the functionality i wanted; specifically:
+			* i could only ask/answer one question at a time per page load (because that's how GT worked) instead of being able to fill out a whole form.
+			* no for loops
+			* no lists, dicts
+			* no concatenation of variables and strings
+		* i decided to abandon GT in favor writing my own full stack app, which would give me more control over functionality.
+
+### [ ] Amazon's Alexa
+* (added 3/2/18)
+* It seems you can develop what are called "Alexa Skills". Here are some links
+	* [ ] https://www.pluralsight.com/guides/node-js/amazon-alexa-skill-tutorial
+	* [ ] https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html
+	* [ ] https://www.cnet.com/how-to/how-to-craft-your-own-custom-voice-commands-for-amazon-echos-alexa/
+	* [ ] https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html
+	* [ ] https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
+
+
+### [ ] is there an online/automated talk-therapy app?
+* added 3/2/18
+
+### [ ] how to connect apps / api's?
+* added 3/2/18
+	* [ ] evernote
+	* [ ] myfitnesspal / myplate (livestrong)
+	* [ ] iOS calendar / gcalendar
+	* [ ] email
+
+<!-- lol -->
+<!-- break -->
+
+
+
+## Code:
+
+### [ ] Schedule upcoming week's exercises
+* added 3/2/18 - a la Joe Rogan's Daily Routine (https://youtu.be/14rvts7tptw)
+	* [ ] auto-add to my phone/computer's calendar app(s)
+		* [ ] methods: email it to myself, and manually add each event to my calendar?
+		* [ ] methods: what other methods are there to add to my calendar?
+	* [ ] display on rBP splash page
+
+### [ ] Schedule upcoming week's meals
+* added 3/2/18
+	* [ ] add my own preferred meals
+	* [ ] have rBP suggest meals based on recent past meals
+
+### [ ] Thought Trainer (subconscious/unconscious thought)
+* added 3/1/18
+	* [ ] comb through 67 steps for gold nuggets
+	* [ ] comb through HTWFAIP for gold nuggets
+
+### [ ] daily to-do list
+* added 3/2/18
+	* [ ] force the user to make a to-do list for the next day to prime their mind for action tomorrow, and to minimize that likelihood of wasting a day
+	* [ ] force the user to reflect on the good, the bad, the ugly/the great of what they did today.
+
+
+
+<!-- - [ ] __Health__ section > __Diet__ subsection
 	- [ ] __Foods I Like__
 		- [ ] keep a database of recipes that i like
 		- [ ] rating system? so rBP knows my preferences
@@ -55,4 +128,4 @@
 - [ ] dude, in developing rBP, it's ok to draw. drawing out what you want your site to look like is just as important as writing the code. it gives you a chance to see what you want your mvp to look like; it's like reverse-engineering the lego model.
 	* figure out the output that i want.
 	* then you can look at the input that you have/need.
-	* then you figure out how to change the input (user interface - how to arrange/collect) to the output.
+	* then you figure out how to change the input (user interface - how to arrange/collect) to the output. -->

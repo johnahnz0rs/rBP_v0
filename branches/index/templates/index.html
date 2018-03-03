@@ -12,10 +12,13 @@
 
 <body>
 	<div class='wrapper'>
-		<h1>Sup d00d. I'm here to make sure you walk the walk, mahfq.</h1>
+		<!-- <h1>Sup d00d. I'm here to make sure you walk the walk, mahfq.</h1> -->
 		<div class='quote-div'>
 			<p class='quote'>{{ session['random_quote'] }}</p>
 		</div> <!-- end .quote-div == bordered box that displays a quote -->
+
+
+		<!-- 3/2/18 ja - i commented out .add-quote-div for now because i want to focus on building .schedule-activities  -->
 		<div class='add-quote-div'>
 			<button class='add-quote-accordion'>Add a new quote to rotation</button>
 			<div class='add-quote-panel'>
@@ -23,12 +26,16 @@
 					New quote you'd like to add to the rotation: <input type='text' name='new_quote'>
 					<input type='submit' value='Add this quote'>
 				</form>
-			</div> <!-- end .add-quote-form -->
+			</div> 
+				<!-- <button class='add-quote'><a href='/add_quote' class='add-quote'>Add new quote</a></p>  -->
+		</div> 
 
-			<!-- <button class='add-quote'><a href='/add_quote' class='add-quote'>Add new quote</a></p> -->
-		</div> <!-- end .add-quote-div -->
+	
+		<div class='schedule-activities-div'>
+			<p><a href='/schedule_activities'>Schedule Upcoming Week's Activities</a></p>
 
-		
+		</div>
+
 	</div> <!-- end wrapper -->
 </body>
 

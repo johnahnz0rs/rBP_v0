@@ -10,6 +10,8 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
+	session.permanent = True
+	session['activities'] = {}
 	session['quotes_list'] = [
 	'"You dont get in life what you want; you get in life what you are. So who are you? Everything in this lifeis about the story that you are telling yourself. Who YOU believe you are." - "Unbreakable" by Redfrost Motivation',
 	'"Esquire is a title for [members of the landed gentry] above the rank of gentlemen and below the rank of knight." - Roman J. Israel, Esq.',
@@ -27,7 +29,6 @@ def index():
 	# set the qotd
 	session['random_quote'] = session['quotes_list'][session['random_num']]
 	print session['quotes_list']
-
 	return render_template('index.html')
 
 
@@ -36,8 +37,7 @@ def add_quote():
 	# add new quote
 	# session['quotes_list'].append('some string')
 	new_quote = ''
-	for char in request.form[
-	'new_quote']:
+	for char in request.form['new_quote']:
 		if char == '\'':
 			new_quote += str('\'')
 		elif char == '\"':
@@ -45,11 +45,32 @@ def add_quote():
 		else:
 			new_quote += str(char)
 	session['quotes_list'].append(str(new_quote))
-	print session['quotes_list']
+	# print session['quotes_list']
 	# print session['quotes_list']['quotes_count']
-
 	return redirect('/')
+
+
+@app.route('/schedule_activities')
+def schedule_activities():
+	
+	return render_template('schedule_activities.html')
+
+
+
+@app.route('/add_activities', methods=['post'])
+def add_activities():
+	session['activities'][request.form['activity-name']] = request.form['activity-count']
+	print session['activities']
+	return redirect('/schedule_activities')
+
+
+
 
 
 app.secret_key = '00'
 app.run(debug=True)
+
+
+
+
+

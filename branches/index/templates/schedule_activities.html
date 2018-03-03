@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en'>
+
+<head>
+	<meta charset='UTF-8'>
+	<meta name='description' content=''>
+	<link rel='stylesheet' href='{{ url_for("static", filename="index.css") }}'>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src='{{ url_for("static", filename="index.js") }}'></script>
+	<title>rBP Schedule Activities</title>
+</head>
+
+<body>
+	<div class='wrapper'>
+		<button class='add-new-activity'>Add New Activity</button>
+		<div class='new-activity'>
+			<form method='post' action='/add_activities'>
+				What activity would you like to add to schedule?<input type='text' name='activity-name'><br>
+				How many times do you want to do this activity this week?<input type='text' name='activity-count'><br>
+				<input type='submit' value="Add Activity">
+			</form>
+		</div>
+
+
+		<div class='scheduled-div'>
+			<ul>
+				{% for activity in session['activities'] %}
+					<li> {{ activity }} </li>
+				{% endfor %}
+			</ul>
+		</div>
+
+
+
+	</div>
+</body>
+
+</html>
+
+<!-- https://www.w3schools.com/bootstrap/bootstrap_collapse.asp -->
+<!-- https://www.w3schools.com/howto/howto_js_accordion.asp -->
+
