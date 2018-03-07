@@ -6,6 +6,38 @@
 * (added 3/1/18)
 * Nathan thinks this might be a competitor because they also try to help the user make better decisions (see also: whatDo)
 
+
+### [ ] https://80000hours.org/
+* (added 3/5/18)
+
+
+### [ ] Amazon's Alexa
+* (added 3/2/18)
+* It seems you can develop what are called "Alexa Skills". Here are some links
+	* [ ] https://www.pluralsight.com/guides/node-js/amazon-alexa-skill-tutorial
+	* [ ] https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html
+	* [ ] https://www.cnet.com/how-to/how-to-craft-your-own-custom-voice-commands-for-amazon-echos-alexa/
+	* [ ] https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html
+	* [ ] https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
+
+
+### [ ] Twitch.tv
+* (added 3/5/18) per NW's suggestion
+	* [ ] create account
+	* [ ] how to upload videos tutorial
+
+
+### [ ] is there an online/automated talk-therapy app?
+* added 3/2/18
+
+### [ ] how to connect apps / api's?
+* added 3/2/18
+	* [ ] evernote
+	* [ ] myfitnesspal / myplate (livestrong)
+	* [ ] iOS calendar / gcalendar
+	* [ ] email
+
+
 ### [x] www.guidedtrack.com 
 * (added 3/1/18)
 * 3/2/18: 
@@ -22,25 +54,6 @@
 			* no concatenation of variables and strings
 		* i decided to abandon GT in favor writing my own full stack app, which would give me more control over functionality.
 
-### [ ] Amazon's Alexa
-* (added 3/2/18)
-* It seems you can develop what are called "Alexa Skills". Here are some links
-	* [ ] https://www.pluralsight.com/guides/node-js/amazon-alexa-skill-tutorial
-	* [ ] https://developer.amazon.com/docs/custom-skills/host-a-custom-skill-as-an-aws-lambda-function.html
-	* [ ] https://www.cnet.com/how-to/how-to-craft-your-own-custom-voice-commands-for-amazon-echos-alexa/
-	* [ ] https://developer.amazon.com/docs/ask-overviews/build-skills-with-the-alexa-skills-kit.html
-	* [ ] https://developer.amazon.com/alexa-skills-kit/alexa-skill-quick-start-tutorial
-
-
-### [ ] is there an online/automated talk-therapy app?
-* added 3/2/18
-
-### [ ] how to connect apps / api's?
-* added 3/2/18
-	* [ ] evernote
-	* [ ] myfitnesspal / myplate (livestrong)
-	* [ ] iOS calendar / gcalendar
-	* [ ] email
 
 <!-- lol -->
 <!-- break -->
@@ -48,6 +61,21 @@
 
 
 ## Code:
+
+### [ ] Simple/Basic:
+* added 3/5/18
+* what has helped me stay on track before?
+	* [ ] when hanah asks me to email her my to-do lists once a week
+		* having someone asking to see it helped me feel like i owed someone updates.
+	* [ ] when miller asks me to send him eod reports and tomorrow's to-do lists
+		* having someone asking to see it helped me feel like i owed someone updates.
+		* *__important__*: miller would *__provide feedback__* on whether i was moving in the right direction, if i should increase/decrease momentum, if i should abandon a project, or give me new direction.
+	* [ ] when i cooked 1-3 days' meals in one session because it minized the prepping, cooking, and cleaning: the parts of feeding myself that i hate the most (aka the entire process except the eating part)
+		* eliminated me having to think about it; just heat and eat.
+* possible methods:
+	* [ ] every morning, email me my evernote to-do list.
+	* [ ] every sunday morning, email me a reminder to schedule the upcoming week.
+	
 
 ### [ ] Schedule upcoming week's exercises
 * added 3/2/18 - a la Joe Rogan's Daily Routine (https://youtu.be/14rvts7tptw)

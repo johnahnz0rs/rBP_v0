@@ -2,13 +2,43 @@
 
 
 ## general thoughts
-* rBP should be a __thought trainer__ in that it puts the thoughts that are most likely to guide me towards my desired life into my head.
+* *__rBP's main functions__* (added 3/6/18)
+	* *__Thought Trainer__*
+		* *What's the big idea here?*: IME, __a single shift in thought can change a life__ -- because the thoughts/story we repeat to ourselves shape our lives.
+			* For example, when I changed from "It's their fault that my life's like this" to "I only have myself to blame"...
+			* For example, when I changed from "Why won't she love me?" to "I'm gonna go get whoever I want"...
+			* For example, when I changed from "It's too hard/I can't" to "I'm going to do this, so this is what I need to do"...
+		* This can be a subtle way to introduce beneficial relationships, like:
+			* Talk therapy,
+			* Guided meditation,
+			* Self-reflection/self-awareness
+
+	* *__Accountabilibuddy__*
+		* *What's the big idea here?*: IME, if I'm the only one who cares about something I should be working on, it's __too easy__ for me to be like "Ehhh, I'm gonna skip today". Every one of my big advances have come because someone else was there *__expecting__* me to follow through.
+			* For example, Alex saved my life when we started working out together at LACC.
+			* For example, I wasted less days at Hitch when Miller made me articulate what I wanted to accomplish everyday via daily EOD Reports.
+			* For example, making to-do lists was an easier habit to maintain when Hanah was expecting me to forward her my to-do lists.
+			* For example, I coded more consistently and persistently with Nathan sitting on Skype with me everyday.
+
+	* *__WhatDo__* (TM Nathan)
+		* *What's the big idea here?*: IME, if I leave it up to me to decide what to do next, __I will always choose poor habits like blazing up some endo and watching TV__. I.e., my mind will automatically revert back to relax mode. 
+		* Why? Partially because that's human nature; and partially because *__there's too much choice__* now.
+		* WhatDo helps make things easier.
+			* For example, it's hard to *__pick my menu__* for the week because there's just too many choices. WhatDo will ask me simple questions to help me determine what to eat. E.g.
+				* are you craving any specific foods?;
+				* what are your preferences for delivery system (e.g. salads, entree plates, gluten/junk)?; etc.
+			* For example, we can *__compile resources__* like 80000hours.org, clearerthinking.org, khanacademy, etc; i.e. people who have already spent considerable time creating pathways and guides. (Great artists steal :P )
+			* For example, rBP can act like a *__personal assistant__* and keep me on my own schedule.
+			* For example, rBP can help me *__prevent regret__*
+
+
+<!-- * rBP should be a __thought trainer__ in that it puts the thoughts that are most likely to guide me towards my desired life into my head.
 * rBP should be an extension of the user: __like a good assistant, it helps you__:
 	* remember what you've learned/done in the past, 
 	* remember what/who you'd like to become in the future, and 
 	* guide your actions/decisions in the now.
 * rBP should __consistently speak with the user__, creating the illusion that it is the second voice in your head.
-* rBP is ultimately meant to be an actual, physical, traveling companion -- your own personal sidekick.
+* rBP is ultimately meant to be an actual, physical, traveling companion -- your own personal sidekick. -->
 
 
 ## questions
